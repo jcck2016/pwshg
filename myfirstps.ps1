@@ -1,2 +1,5 @@
-Get-childitem
-Get-Process | explorer.exe
+Get-childitem ~\.*
+Get-Process *win*
+get-date | Get-Member
+
+Find-Module -tag az
